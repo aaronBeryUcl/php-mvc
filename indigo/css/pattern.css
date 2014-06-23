@@ -1,0 +1,82 @@
+/* Pattern styles */
+
+@import 'fonts.css';
+
+body {
+	background-color: #fff !important;
+}
+
+.label {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-size: 14px;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #999;
+	clear: both;
+}
+
+.label:first-child {
+	margin-top: 0;
+}
+
+.viewsource .prettyprint {
+	font-family: Consolas,"Bitstream Vera Sans Mono","Andale Mono",Monaco,"DejaVu Sans Mono","Lucida Console",monospace;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin: 0;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	border: none !important;
+	padding: 5%;
+	background: #333;
+	color: #fff;
+}
+
+
+
+.viewsource .prettyprint .tag {
+	position: relative;
+	background: none;
+	font-size: inherit;
+	left: auto;
+	top: auto;
+	padding: 0;
+}
+
+.viewsource .prettyprint a {
+	color: #fff;
+}
+
+.viewsource .prettyprint a:hover {
+	text-decoration: none;
+}
+
+
+/* Code to overwrite the display of Blurb Wide within Indigo */
+
+
+[class*=blurb-wide] img {
+	display: block;
+	float: left;
+	margin-left: 0%;
+	margin-right: -100%;
+	width: 33%;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+	height: auto;
+	clear: none;
+}
+
+[class*=blurb-wide] div {
+	display: block;
+	float: left;
+	margin-left: 36.0303%;
+	margin-right: -100%;
+	width: 63.85859%;
+	top: -4px;
+	position: relative;
+	clear: none;
+}

@@ -1,0 +1,10 @@
+Configuration
+
+Base type family (to make it feel like a client's site): Helvetica
+Client logo:
+
+Masthead background colour: #000000
+Masthead text colour: #ffffff
+Link colour: 
+Link hover:
+
