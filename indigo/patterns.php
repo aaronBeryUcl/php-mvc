@@ -22,24 +22,24 @@
 				<h2>UCL Patterns</h2>
 				
 				<ul>
-					<li><a class="active" href="/patterns/accordion/">Accordion</a></li>
-					<li><a href="/patterns/audio/">Audio</a></li>
-					<li><a href="/patterns/blurb/">Blurbs</a></li>
-					<li><a href="/patterns/box/">Box</a></li>
-					<li><a href="/patterns/breadcrumb/">Breadcrumb</a></li>
-					<li><a href="/patterns/carousel/">Carousel</a></li>
-					<li><a href="/patterns/code/">Code</a></li>
-					<li><a href="/patterns/footer/">Footer</a></li>
-					<li><a href="/patterns/form/">Form</a></li>
-					<li><a href="/patterns/longform/">Longform content</a></li>
-					<li><a href="/patterns/image/">Images</a></li>
-					<li><a href="/patterns/map/">Map</a></li>
-					<li><a href="/patterns/pre/">Pre</a></li>
-					<li><a href="/patterns/pullquote/">Quotes</a></li>
-					<li><a href="/patterns/table/">Tables</a></li>
-					<li><a href="/patterns/tabs/">Tabs</a></li>
-					<li><a href="/patterns/vcard/">Vcard</a></li>
-					<li><a href="/patterns/video/">Video</a></li>
+					<li><a class="active" href="/indigo/patterns-accordion.php?pattern=accordion">Accordion</a></li>
+					<li><a href="/indigo/patterns-audio.php?pattern=audio">Audio</a></li>
+					<li><a href="/indigo/patterns-blurb.php?pattern=blurb">Blurbs</a></li>
+					<li><a href="/indigo/patterns-box.php?pattern=box">Box</a></li>
+					<li><a href="/indigo/patterns-breadcrumb.php?pattern=breadcrumb">Breadcrumb</a></li>
+					<li><a href="/indigo/patterns-carousel.php?pattern=carousel">Carousel</a></li>
+					<li><a href="/indigo/patterns-code.php?pattern=code">Code</a></li>
+					<li><a href="/indigo/patterns-footer.php?pattern=footer">Footer</a></li>
+					<li><a href="/indigo/patterns-form.php?pattern=form">Form</a></li>
+					<li><a href="/indigo/patterns-longform.php?pattern=longform">Longform content</a></li>
+					<li><a href="/indigo/patterns-image.php?pattern=image">Images</a></li>
+					<li><a href="/indigo/patterns-map.php?pattern=map">Map</a></li>
+					<li><a href="/indigo/patterns-pre.php?pattern=pre">Pre</a></li>
+					<li><a href="/indigo/patterns-pullquote.php?pattern=pullquote">Quotes</a></li>
+					<li><a href="/indigo/patterns-table.php?pattern=table">Tables</a></li>
+					<li><a href="/indigo/patterns-tabs.php?pattern=tabs">Tabs</a></li>
+					<li><a href="/indigo/patterns-vcard.php?pattern=vcard">Vcard</a></li>
+					<li><a href="/indigo/patterns-video.php?pattern=video">Video</a></li>
 				</ul>
 										
 			</section>
