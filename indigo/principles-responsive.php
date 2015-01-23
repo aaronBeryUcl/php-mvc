@@ -48,7 +48,7 @@
 				
 				<p>At certain macro breakpoints, we should also look for content that can be left out and added at other resolutions. For example: an image for every story is great on desktop, but maybe only featured stories load images at mobile sizes.</p>
 				
-				
+				
 				<h4>2. Page assets (including images)</h4>
 				
 				<p>Anything loaded on a page of a site must be optimized first for low bandwidth environments, then progressively enhanced for higher bandwidths. This includes images, fonts, javascript, and any other asset loaded to a page.</p>

@@ -1,3 +1,6 @@
+<?php
+	include 'includes/templateListing.php';
+?>
 <nav id="nav-site" class="t1 dl1">
 
 <a id="nav-mobile-back" href="#"><img src="./img/close.png" alt="X" /> Close</a>
@@ -52,8 +55,19 @@
 			</ul>
 		</dd>
 
+		<dt><p>Templates</p></dt>
+		<dd>
+			<ul>
+				<?php
+					foreach ($templatesArr as $templateKey => $templateEntry) {
+						echo '<li><a href="./template.php?pattern=' . $templateEntry . '">' . prettyTemplateLabel($templateEntry) . '</a></li>';
+					}
+				?>
+			</ul>
+		</dd>
+
 	</dl>
 	
-	<p class="about">Indigo is maintained by the UCL web team, if you have any comments or questions please contact Dan Jackson by emailing <a href="#">indigo@ucl.ac.uk</a></p>
+	<p class="about">Indigo is maintained by the UCL web team, if you have any comments or questions please contact UCL Web &amp; Mobile Services by emailing <a href="#">indigo@ucl.ac.uk</a></p>
 	
 </nav><!-- end #nav-site -->

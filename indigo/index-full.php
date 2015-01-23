@@ -87,7 +87,9 @@
 			
 			<aside class="d4 d-padin">
 				
-				<?php include 'includes/subnav.php'; ?>
+				<?php 
+					include 'includes/subnav.php';
+				?>
 			
 			</aside>
 		

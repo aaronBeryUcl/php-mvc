@@ -1,3 +1,6 @@
+<?php
+	include "includes/globalFunctions.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +22,7 @@
 <link rel="stylesheet" href="/css/gridset-ie-lte8.css" />
 <![endif]-->
 
-<link href="./css/style.css" rel="stylesheet" />
+<link href="./css/style.min.css" rel="stylesheet" />
 <link href="./css/prism.css" rel="stylesheet" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="./js/functions.js"></script>
