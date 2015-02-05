@@ -1,5 +1,5 @@
 <?php $title = 'template';
-			
+
 			include 'includes/head.php';
 				
 			include 'includes/masthead.php';

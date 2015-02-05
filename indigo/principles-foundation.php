@@ -20,20 +20,14 @@
 				<ol>
 					<li><a href="#1">Macro elements</a></li>
 					
-					<li><a href="#4">Grid System</a></li>
-					<li><a href="#5">Typography</a></li>
-					<li><a href="#6">Colour</a></li>
-					<li><a href="#7">Iconography</a></li>
-					<li><a href="#8">Images</a></li>
-					<li><a href="#9">Patterns</a></li>
-					<li><a href="#0">Content</a></li>
+					<li><a href="#2">Grid System</a></li>
+					<li><a href="#3">Typography</a></li>
+					<li><a href="#4">Colour</a></li>
+					<li><a href="#5">Iconography</a></li>
+					<li><a href="#6">Images</a></li>
+					<li><a href="#7">Patterns</a></li>
+					<li><a href="#8">Content</a></li>
 				</ol>
-				
-				<hr />
-				
-				<img src="./img/system/daylabs-screenshot.png" />
-				
-				<hr />
 				
 				<article>
 					<h3 id="1">Macro elements</h3>
@@ -52,8 +46,11 @@
 					<h4>5. Patterns</h4>
 					<p>UCL's digital services can use a wide variety of content patterns to best display their content. </p>
 					
+					<hr />
+					<img src="./img/system/daylabs-screenshot.png" />
+					<hr />
 				</article>
-				
+
 				<article>
 					<h3 id="2">Grid System</h3>
 					<p></p>

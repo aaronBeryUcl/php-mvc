@@ -35,7 +35,7 @@
 					<img src="./img/system/expanding-screenshot.png" />
 				</div>
 				
-				<p>UCL Venue is an demo of a website, that has used design devices to add creativity and personality, whilst retaining the elements of the UCL Foundation and still adhering to the Principles. You can read more about this, and other websites in the <a href="/casestudies/">Case Studies</a> section.</p>
+				<p>UCL Venue is an demo of a website, that has used design devices to add creativity and personality, whilst retaining the elements of the UCL Foundation and still adhering to the Principles. You can read more about this, and other websites in the <a href="/indigo/casestudies.php">Case Studies</a> section.</p>
 				
 				<h4>1. The Box Shadow</h4>
 				<p>A box shadow has been added as a bold, coloured design device used on boxed content elements. The colours are still drawn from the <a href="colour.php">UCL palette</a></p>

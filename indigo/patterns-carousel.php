@@ -26,21 +26,20 @@
 			</header>
 			
 			<div class="pattern interaction carousel">
-				
-				<iframe id="carousel-view" class="frame dl2-dl3" src="./git-proxy.php?file=<?php echo $pattern; ?>.html"></iframe>
-				
+				<iframe id="carousel-view" class="frame dl2-dl3" src="git-proxy.php?file=<?php echo $pattern; ?>.html&require=true"></iframe>
+
 				<aside id="main-sidebar" class="dl4-dl5">
 					
 					<section>
 					
 						<h1>Notes</h1>
 						
-						<p>Assign css styles for customisation to:</p>
+						<p>Add/remove slides</p>
 						
 						<ul>
-							<li>Change the image <code>src</code> to link to your image and amend the <code>alt</code> text to briefly describe the image.</li>
-							<li>Add further <code>&lt;li&gt;</code> elements to add more images to your slideshow</li>
-							<li>Wrap the <code>&lt;img&gt;</code> in an <code>&lt;a href="#"&gt;&lt;/a&gt;</code> to add a link to the image</li>
+							<li>Add remove figure elements in the 'owl-carousel' <code>div</code></li>
+							<li>Edit the <code>src</code> to change the image source</li>
+							<li>Edit the header and paragraph tags to change the copy</li>
 						</ul>
 					
 					</section>
