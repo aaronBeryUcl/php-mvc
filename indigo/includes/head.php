@@ -1,4 +1,5 @@
 <?php
+	include 'includes/templateSections.php';
 	include "includes/globalFunctions.php";
 ?>
 <!DOCTYPE html>

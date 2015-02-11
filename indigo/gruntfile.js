@@ -30,10 +30,10 @@ module.exports = function(grunt) {
 		,watch: {
 			sass:{
 				files: [
-					'*.scss'
-					,'**/*.scss'
+					'src/*.scss'
+					,'src/**/*.scss'
 				],
-				tasks: ['sass:dist','cssmin']
+				tasks: ['sass:dist','cssmin','watch']
 			}
 		}
 	});
@@ -43,4 +43,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 
 	grunt.registerTask('default', ['sass','cssmin','watch']);
+	//grunt.registerTask('default', ['sass','cssmin']);
 };

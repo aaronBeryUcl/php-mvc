@@ -1280,6 +1280,10 @@ a.btn-download {
   margin-bottom: 2em;
 }
 
+.pattern .frame {
+  min-height: 25em;
+}
+
 /*--- 3. generic stuff --*/
 ul, ol {
   max-width: 40em;
