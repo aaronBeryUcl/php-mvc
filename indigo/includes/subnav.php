@@ -1,6 +1,3 @@
-<?php
-	include 'includes/templateListing.php';
-?>
 <nav id="nav-site" class="t1 dl1">
 
 <a id="nav-mobile-back" href="#"><img src="./img/close.png" alt="X" /> Close</a>
@@ -57,13 +54,9 @@
 
 		<dt><p>Templates</p></dt>
 		<dd>
-			<ul>
-				<?php
-					foreach ($templatesArr as $templateKey => $templateEntry) {
-						echo '<li><a href="./template.php?pattern=' . $templateEntry . '">' . prettyTemplateLabel($templateEntry) . '</a></li>';
-					}
-				?>
-			</ul>
+			<?php
+				buildTemplatesListing($templatesArr);
+			?>
 		</dd>
 
 	</dl>

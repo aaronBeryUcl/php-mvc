@@ -3,14 +3,18 @@
 
 	$title = ucfirst($pattern);
 
-	include 'includes/templateSections.php';
-
 	include 'includes/head.php';
 		
 	include 'includes/masthead.php';
 	
 	include 'includes/subnav.php';
 
+	$currTempRow = getTemplObjRowNumById($templatesArr,$pattern);
+	if($currTempRow > -1){
+		$currentTemplate = $templatesArr[$currTempRow];
+	}else{
+		exit;
+	}
 ?>
 	
 	<main id="main-site" class="t2-t3 dl2-dl5">
@@ -23,8 +27,7 @@
 				
 					<h2 class="slug">Templates</h2>
 					<?php 
-
-						echo "<h1>" . prettyTemplateLabel($pattern) . "</h1>" . $description;
+						echo "<h1>" . $currentTemplate->getCol('templLabel') . "</h1>" . $currentTemplate->getCol('templDescription');
 					?>
 				</div>
 			
@@ -38,7 +41,7 @@
 					
 					<section>
 						<?php
-							echo "<h3>" . $header . "</h3>" . $blurb;
+							echo "<h3>" . $currentTemplate->getCol('templHeader') . "</h3>" . $currentTemplate->getCol('templBlurb');
 						?>
 						
 						

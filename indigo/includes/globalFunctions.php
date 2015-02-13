@@ -30,4 +30,28 @@
 		//return uCaseEachWord($str);
 		return ucfirst($str);
 	}
+
+	function buildTemplatesListing($arrOfTemplObj){
+		$listing = '<ul>';
+
+		foreach ($arrOfTemplObj as $templateKey => $templateEntry) {
+			echo '<li><a href="./template.php?pattern=' . $templateEntry->getCol('templId') . '">' . $templateEntry->getCol('templLabel') . '</a></li>';
+		}
+
+		$listing .= '</ul>';
+
+		return $listing;
+	}
+
+	function getTemplObjRowNumById($arr,$id){
+		$key = -1;
+		foreach ($arr as $tmpKey => $value) {
+			//var_dump($value->getCol('templId') . ' ' . $id);
+			if($value->getCol('templId')===$id){
+				$key = $tmpKey;
+				break;
+			}
+		}
+		return $key;
+	}
 ?>
