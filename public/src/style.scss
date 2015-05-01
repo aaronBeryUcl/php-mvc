@@ -1,0 +1,22 @@
+/*
+Contents:
+1. import partials
+2. import legacy
+3. generic stuff
+
+*/
+
+/*--- import partials ---*/
+@import "partials/colors";
+@import "partials/base";
+@import "partials/mixins";
+
+/*--- import legacy stuff ---*/
+@import 'components/legacy-styles';
+
+/*--- & new stuff ---*/
+@import 'components/new_styles';
+/*--- 3. generic stuff --*/
+ul,ol{
+	max-width: 40em;
+}
